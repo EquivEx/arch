@@ -1,0 +1,11 @@
+(sleep 3s && razercfg -p 2) &
+
+(sleep 2s && ~/.screenlayout/home.sh) &
+
+(sleep 2s && compton --opengl --vsync opengl-swc --paint-on-overlay -b) &
+
+(sleep 3s && conky -d) &
+
+(sleep 3s && feh  --bg-fill '/home/ken/Pictures/Wallpaper/wallpaper-625872.jpg') &
+
+(sleep 3s && docky) &

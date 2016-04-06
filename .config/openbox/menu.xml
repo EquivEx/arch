@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openbox_menu xmlns="http://openbox.org/3.4/menu">
+	<menu id="apps-net-menu" label="Internet">
+		<item label="TS3">
+			<action name="Execute">
+				<execute>teamspeak3</execute>
+			</action>
+		</item>
+		<item label="Steam">
+			<action name="Execute">
+				<execute>steamrun</execute>
+			</action>
+		</item>
+		<item label="Deluge">
+			<action name="Execute">
+				<execute>deluge</execute>
+			</action>
+		</item>
+		<item label="Chrome">
+			<action name="Execute">
+				<execute>google-chrome-stable</execute>
+			</action>
+		</item>
+	</menu>
+	<menu id="apps-office-menu" label="Office">
+		<item label="Calc">
+			<action name="Execute">
+				<execute>speedcrunch</execute>
+			</action>
+		</item>
+		<item label="GVim">
+			<action name="Execute">
+				<execute>gvim</execute>
+			</action>
+		</item>
+		<item label="Writer">
+			<action name="Execute">
+				<execute>libreoffice --writer</execute>
+			</action>
+		</item>
+		<item label="Spread">
+			<action name="Execute">
+				<execute>libreoffice --calc</execute>
+			</action>
+		</item>
+		<item label="Impress">
+			<action name="Execute">
+				<execute>libreoffice --impress</execute>
+			</action>
+		</item>
+	</menu>
+	<menu id="apps-multimedia-menu" label="Multimedia">
+		<item label="Baka">
+			<action name="Execute">
+				<execute>primusrun baka-mplayer</execute>
+			</action>
+		</item>
+		<item label="GIMP">
+			<action name="Execute">
+				<execute>primusrun gimp</execute>
+			</action>
+		</item>
+		<item label="DeadBeeF">
+			<action name="Execute">
+				<execute>/opt/deadbeef/bin/deadbeef</execute>
+			</action>
+		</item>
+	</menu>
+	<menu id="system-menu" label="System">
+		<item label="Razercfg">
+			<action name="Execute">
+				<execute>razercfg</execute>
+			</action>
+		</item>
+		<item label="PCmanFM">
+			<action name="Execute">
+				<execute>pcmanfm</execute>
+			</action>
+		</item>
+		<item label="asoundconf">
+			<action name="Execute">
+				<execute>asoundconf-gtk</execute>
+			</action>
+		</item>
+		<item label="LXappearance">
+			<action name="Execute">
+				<execute>lxappearance</execute>
+			</action>
+		</item>
+		<item label="Openbox Menu Editor">
+			<action name="Execute">
+				<execute>obmenu</execute>
+			</action>
+		</item>
+		<item label="Openbox Configuration Manager">
+			<action name="Execute">
+				<command>obconf</command>
+				<startupnotify>
+					<enabled>yes</enabled>
+				</startupnotify>
+			</action>
+		</item>
+		<separator/>
+		<item label="Reconfigure Openbox">
+			<action name="Reconfigure"/>
+		</item>
+	</menu>
+	<menu id="root-menu" label="Openbox 3">
+		<separator label="Applications"/>
+		<item label="URxvtc">
+			<action name="Execute">
+				<execute>urxvtcb</execute>
+			</action>
+		</item>
+		<menu id="apps-net-menu"/>
+		<menu id="apps-office-menu"/>
+		<menu id="apps-multimedia-menu"/>
+		<separator label="System"/>
+		<menu id="system-menu"/>
+		<separator/>
+		<item label="Log Out">
+			<action name="Exit">
+				<prompt>yes</prompt>
+			</action>
+		</item>
+	</menu>
+</openbox_menu>
