@@ -1,0 +1,101 @@
+Xft.dpi:                                        96
+Xft.antialias:                                  true
+Xft.rgba:                                       rgb
+Xft.hinting:                                    true
+Xft.hintstyle:                                  hintslight
+Xcursor.theme:                                  aero
+
+URxvt*foreground:                               #bbbbbb
+URxvt*background:                               #121212
+URxvt*cursorColor:                              #bbbbbb
+URxvt*.scrollBar:               				false
+URxvt*.cursorBlink: 		            		true
+URxvt*cursorUnderline:                          1
+URxvt*.iconFile: /usr/share/icons/Super-Flat-Remix/apps/scalable/terminal.svg
+URxvt*font:                                     xft:Droid Sans Mono:hinting=true:pixelsize=12:antialias=false
+URxvt*boldFont:                                 xft:Droid Sans Mono:style=bold:hinting=true:pixelsize=12:antialias=false
+URxvt*italicFont:                               xft:Droid Sans Mono:style=italic:hinting=true:pixelsize=12:antialias=false
+URxvt*boldItalicFont:                           xft:Droid Sans Mono:style=bolditalic:hinting=true:pixelsize=12:antialias=false
+URxvt*.geometry:                                90x25
+URxvt*.url-launcher: 		            		/bin/google-chrome-stable
+URxvt*.matcher.button: 			            	1
+URxvt*.depth: 				                	24
+URxvt*.buffer:                                   "False"
+URxvt*.urgentOnBell:                             "True"
+URxvt*.borderLess:				"true"
+!DWM Colors
+!!! black dark/light
+!*color0: #222222
+!*color8: #444444
+!!! red dark/light
+!*color1: #B10000
+!*color9: #CC0000
+!!! green dark/light
+!*color2: #6CB100
+!*color10: #7CCC00
+!!! yellow dark/light
+!*color3: #B15C00
+!*color11: #CC6A00
+!!! blue dark/light
+!*color4: #005577
+!*color12: #0075A3
+!!! magenta dark/light
+!*color5: #5600B1
+!*color13: #6300CC
+!!! cyan dark/light
+!*color6: #007177
+!*color14: #009199
+!!! white dark/light
+!*color7: #bbbbbb
+!*color15: #eeeeee
+
+!suare colors
+!!! black dark/light
+!*color0: #252525
+!*color8: #363636
+!!! red dark/light
+!*color1: #7D3022
+!*color9: #A43B27
+!!! green dark/light
+!*color2: #6D9E3F
+!*color10: #A3D572
+!!! yellow dark/light
+!*color3: #916727
+!*color11: #BB883A
+!!! blue dark/light
+!*color4: #234C8B
+!*color12: #386FC5
+!!! magenta dark/light
+!*color5: #6C2940
+!*color13: #893A55
+!!! cyan dark/light
+!*color6: #334359
+!*color14: #4A5D74
+!!! white dark/light
+!*color7: #8f8f8f
+!*color15: #afafaf 
+
+! black
+*color0  : #2E3436
+*color8  : #555753
+! red
+*color1  : #CC0000
+*color9  : #EF2929
+! green
+*color2  : #4E9A06
+*color10 : #8AE234
+! yellow
+*color3  : #C4A000
+*color11 : #FCE94F
+! blue
+*color4  : #3465A4
+*color12 : #729FCF
+! magenta
+*color5  : #75507B
+*color13 : #AD7FA8
+! cyan
+*color6  : #06989A
+*color14 : #34E2E2
+! white
+*color7  : #D3D7CF
+*color15 : #EEEEEC
